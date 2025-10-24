@@ -1,10 +1,10 @@
 import { Phone } from "lucide-react";
-import Button from "../components/units/button";
-import Heading from "../components/units/heading";
-import Paragraph from "../components/units/paragraphs";
-import { useLanguage } from "../hooks/use-language";
-import { siteMap } from "../site-map";
-import ImageExploreLink from "../components/shared/image-explore-link";
+import Button from "../../components/units/button";
+import Heading from "../../components/units/heading";
+import Paragraph from "../../components/units/paragraphs";
+import { useLanguage } from "../../hooks/use-language";
+import { siteMap } from "../../site-map";
+import ImageExploreLink from "../../components/shared/image-explore-link";
 
 const HeroSection = () => {
     const { t: l } = useLanguage();
