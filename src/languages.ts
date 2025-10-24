@@ -5,6 +5,11 @@ export const languages = {
         shared: {
             name: "Akio International",
         },
+        nav: {
+            linkVehicles: "Vehicles",
+            linkHomeServices: "Home Services",
+            cta: "Contact Now",
+        },
     },
     jp: {
         shared: {
@@ -24,9 +29,3 @@ export interface LanguageContextType {
 export const LanguageContext = createContext<LanguageContextType | undefined>(
     undefined
 );
-
-// nav: {
-//     linkVehicles: "Vehicles",
-//     linkHomeServices: "Home Services",
-//     cta: "Contact Now",
-// },

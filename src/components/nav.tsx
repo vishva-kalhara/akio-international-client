@@ -1,13 +1,18 @@
 import { useLanguage } from "../hooks/use-language";
+import Link from "./units/link";
 
 const Nav = () => {
     const { t } = useLanguage();
 
     return (
-        <nav className="bg-beige w-full flex px-6 py-6">
-            <a href="/" className="text-primary font-semibold">
-                {t.shared.name}
-            </a>
+        <nav className="bg-beige w-full flex px-8 justify-between items-center">
+            <div className="py-6">
+                <Link href="/">{t.shared.name}</Link>
+            </div>
+            <div className="flex gap-6">
+                <Link href="/vehicles">{t.nav.linkVehicles}</Link>
+                <Link href="/home-services">{t.nav.linkHomeServices}</Link>
+            </div>
         </nav>
     );
 };
