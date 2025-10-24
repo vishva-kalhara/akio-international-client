@@ -29,13 +29,20 @@ export const languages = {
                     homeServicesCardText: "Explore Home Services",
                 },
             },
+            homeServices: {
+                heading: "Our Home Services",
+                subText:
+                    "Professional techniques to beautifully restore your home. Total support from cleaning to renovation.",
+                services: {
+                    airCondition: "Air Condition Cleaning",
+                    bathroom: "Bathroom Cleaning",
+                    floor: "Floor Cleaning",
+                    kitchen: "Kitchen Cleaning",
+                    toilet: "Toilet Cleaning",
+                },
+            },
         },
     },
-    // jp: {
-    //     shared: {
-    //         name: "アキオインターナショナル",
-    //     },
-    // },
 };
 
 export type Language = keyof typeof languages;

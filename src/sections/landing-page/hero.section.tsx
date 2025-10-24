@@ -14,7 +14,7 @@ const HeroSection = () => {
         <section className="flex flex-col justify-center items-center py-20 bg-beige">
             <Heading>{t.line1}</Heading>
             <Heading>{t.line2}</Heading>
-            <Paragraph className="mt-4 max-w-[75ch] ">{t.subText}</Paragraph>
+            <Paragraph className="mt-4  ">{t.subText}</Paragraph>
             <div className="flex gap-4 items-center mt-8">
                 <a href={siteMap.aboutUsPage}>
                     <Button variant="Outline">{t.btn2}</Button>
