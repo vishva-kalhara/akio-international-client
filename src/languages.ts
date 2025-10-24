@@ -8,7 +8,7 @@ export const languages = {
         nav: {
             linkVehicles: "Vehicles",
             linkHomeServices: "Home Services",
-            cta: "Contact Now",
+            cta: "Contact Us",
         },
     },
     jp: {
