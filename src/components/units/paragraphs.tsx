@@ -11,7 +11,7 @@ const Paragraph = ({
     return (
         <p
             className={cn(
-                "text-black/55 leading-normal text-center font-medium",
+                "text-black/55 leading-normal text-sm md:text-base text-center font-medium px-10",
                 className
             )}
         >

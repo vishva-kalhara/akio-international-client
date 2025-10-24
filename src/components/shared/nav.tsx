@@ -13,10 +13,13 @@ const Nav = () => {
                 <Link href={siteMap.landingPage}>{t.shared.name}</Link>
             </div>
             <div className="flex gap-6 items-center">
-                <Link href={siteMap.vehiclesPage}>
+                <Link href={siteMap.vehiclesPage} className="hidden md:block">
                     {t.shared.nav.linkVehicles}
                 </Link>
-                <Link href={siteMap.homeServicesPage}>
+                <Link
+                    href={siteMap.homeServicesPage}
+                    className="hidden md:block"
+                >
                     {t.shared.nav.linkHomeServices}
                 </Link>
                 <a href={siteMap.contactUsPage}>
