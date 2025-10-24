@@ -6,15 +6,16 @@ type ButtonVariant = "Primary" | "Outline";
 type ButtonType = {
     variant?: ButtonVariant;
     children: ReactNode;
+    className?: string;
 };
 
-const Button = ({ variant = "Primary", children }: ButtonType) => {
+const Button = ({ variant = "Primary", children, className }: ButtonType) => {
     const getClasses = (v: ButtonVariant) => {
         switch (v) {
             case "Primary":
                 return "bg-primary text-white";
             case "Outline":
-                return "bg-ivory border border-black/10 hover:border-primary/80 transition-all  ease-in";
+                return "bg-white/85 border border-black/10 hover:border-primary/80 transition-all  ease-in";
             default:
                 return "";
         }
@@ -24,7 +25,8 @@ const Button = ({ variant = "Primary", children }: ButtonType) => {
         <button
             className={cn(
                 "px-6 py-3 rounded-full font-semibold hover:opacity-90 hover:cursor-pointer flex gap-2 items-center",
-                getClasses(variant)
+                getClasses(variant),
+                className
             )}
         >
             {children}

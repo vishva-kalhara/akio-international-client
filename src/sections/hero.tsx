@@ -4,6 +4,7 @@ import Heading from "../components/units/heading";
 import Paragraph from "../components/units/paragraphs";
 import { useLanguage } from "../hooks/use-language";
 import { siteMap } from "../site-map";
+import ImageExploreLink from "../components/shared/image-explore-link";
 
 const HeroSection = () => {
     const { t: l } = useLanguage();
@@ -23,6 +24,18 @@ const HeroSection = () => {
                         <Phone fill="#fff" size={18} className="mt-1" /> {t.cta}
                     </Button>
                 </a>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-6 px-8 mt-20 mx-auto max-w-4xl">
+                <ImageExploreLink
+                    href={siteMap.vehiclesPage}
+                    img="./landing-vehicles.png"
+                    text={t.cards.vehicleCardText}
+                />
+                <ImageExploreLink
+                    href={siteMap.homeServicesPage}
+                    img="./landing-house-services.png"
+                    text={t.cards.homeServicesCardText}
+                />
             </div>
         </section>
     );
