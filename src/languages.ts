@@ -10,6 +10,16 @@ export const languages = {
                 cta: "Contact Us",
             },
         },
+        landingPage: {
+            hero: {
+                line1: "Two Specialties,",
+                line2: "One Trusted Partner",
+                subText:
+                    "Vehicles and homes - both essential partners in your life journey. We support your lifestyle as dedicated professionals.",
+                btn2: "About Us",
+                cta: "Contact Us",
+            },
+        },
     },
     // jp: {
     //     shared: {
