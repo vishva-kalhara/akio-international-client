@@ -14,7 +14,7 @@ const Button = ({ variant = "Primary", children }: ButtonType) => {
             case "Primary":
                 return "bg-primary text-white";
             case "Outline":
-                return "bp-ivory";
+                return "bg-ivory border border-black/10 hover:border-primary/80 transition-all  ease-in";
             default:
                 return "";
         }
