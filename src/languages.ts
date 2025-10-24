@@ -9,6 +9,12 @@ export const languages = {
                 linkHomeServices: "Home Services",
                 cta: "Contact Us",
             },
+            footer: {
+                mobile: "0708 338 1142",
+                email: "info@akiointernational.com",
+                address:
+                    "10030-24 Kido, Yokoshibahikari-cho, Sanbu-gun, Chiba Prefecture",
+            },
         },
         landingPage: {
             hero: {
