@@ -11,11 +11,11 @@ export const languages = {
             cta: "Contact Us",
         },
     },
-    jp: {
-        shared: {
-            name: "アキオインターナショナル",
-        },
-    },
+    // jp: {
+    //     shared: {
+    //         name: "アキオインターナショナル",
+    //     },
+    // },
 };
 
 export type Language = keyof typeof languages;
