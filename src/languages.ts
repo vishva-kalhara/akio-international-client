@@ -43,6 +43,47 @@ export const languages = {
             },
         },
     },
+    jp: {
+        shared: {
+            name: "アキオインターナショナル",
+            nav: {
+                linkVehicles: "車両",
+                linkHomeServices: "ハウスサービス",
+                cta: "お問い合わせ",
+            },
+            footer: {
+                mobile: "0708 338 1142",
+                email: "info@akiointernational.com",
+                address: "千葉県山武郡横芝光町木戸10030-24",
+            },
+        },
+        landingPage: {
+            hero: {
+                line1: "2つの専門分野、",
+                line2: "1つの信頼できるパートナー",
+                subText:
+                    "車と家、どちらもあなたの人生の大切なパートナー。私たちは専門家としてあなたのライフスタイルをサポートします。",
+                btn2: "私たちについて",
+                cta: "お問い合わせ",
+                cards: {
+                    vehicleCardText: "車を見る",
+                    homeServicesCardText: "ハウスサービスを見る",
+                },
+            },
+            homeServices: {
+                heading: "私たちのハウスサービス",
+                subText:
+                    "プロの技術でお住まいを美しく蘇らせます。クリーニングからリノベーションまでトータルサポート。",
+                services: {
+                    airCondition: "エアコンクリーニング",
+                    bathroom: "浴室クリーニング",
+                    floor: "床クリーニング",
+                    kitchen: "キッチンクリーニング",
+                    toilet: "トイレクリーニング",
+                },
+            },
+        },
+    },
 };
 
 export type Language = keyof typeof languages;
