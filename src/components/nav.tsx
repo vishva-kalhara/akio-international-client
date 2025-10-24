@@ -12,12 +12,14 @@ const Nav = () => {
                 <Link href="/">{t.shared.name}</Link>
             </div>
             <div className="flex gap-6 items-center">
-                <Link href="/vehicles">{t.nav.linkVehicles}</Link>
-                <Link href="/home-services">{t.nav.linkHomeServices}</Link>
+                <Link href="/vehicles">{t.shared.nav.linkVehicles}</Link>
+                <Link href="/home-services">
+                    {t.shared.nav.linkHomeServices}
+                </Link>
                 <a href="/contact-us">
                     <Button variant="Primary">
                         <Phone fill="#fff" size={18} className="mt-1" />{" "}
-                        {t.nav.cta}
+                        {t.shared.nav.cta}
                     </Button>
                 </a>
             </div>

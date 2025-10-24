@@ -4,11 +4,11 @@ export const languages = {
     en: {
         shared: {
             name: "Akio International",
-        },
-        nav: {
-            linkVehicles: "Vehicles",
-            linkHomeServices: "Home Services",
-            cta: "Contact Us",
+            nav: {
+                linkVehicles: "Vehicles",
+                linkHomeServices: "Home Services",
+                cta: "Contact Us",
+            },
         },
     },
     // jp: {
