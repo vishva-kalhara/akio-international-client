@@ -42,6 +42,11 @@ export const languages = {
                 },
             },
         },
+        vehicleServicesPage: {
+            heading1: "Car repair (sheet metal, painting, welding)",
+            heading2: "Car purchase / Used car sales / Scrap",
+            heading3: "Forklift, backhoe, and excavator repair",
+        },
     },
     jp: {
         shared: {
@@ -82,6 +87,11 @@ export const languages = {
                     toilet: "トイレクリーニング",
                 },
             },
+        },
+        vehicleServicesPage: {
+            heading1: "車の修理 (板金,塗装,溶接)",
+            heading2: "車買取 / 中古車販売 / スクラップ",
+            heading3: "フォークリフト , ユンボ ト, ラクター 修理",
         },
     },
 };
