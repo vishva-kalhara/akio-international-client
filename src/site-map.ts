@@ -1,6 +1,6 @@
 export const siteMap = {
     landingPage: "/",
-    vehiclesPage: "/vehicles",
+    vehiclesPage: "/vehicle-services",
     homeServicesPage: "/home-services",
     contactUsPage: "/contact-us",
     aboutUsPage: "/about-us",
