@@ -7,7 +7,7 @@ import {
 } from "../languages";
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-    const [lang, setLang] = useState<Language>("en");
+    const [lang, setLang] = useState<Language>("jp");
 
     const switchLanguage = (newLang: Language) => setLang(newLang);
 
